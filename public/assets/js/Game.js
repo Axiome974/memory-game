@@ -13,7 +13,7 @@
 class Game {
 
     constructor() {
-        this.deck = new Deck(14);
+        this.deck = new Deck(5);
         this.timer = new Timer(120);
         this.score = 0;
         this.guess = null;
@@ -75,7 +75,7 @@ class Game {
     // Cette méthode compare simplement le score sur le plateau, est il égale à la quantité de fruits à trouver
     checkGameStatus(){
         if(this.score === this.deck.quantity ){
-            this.winGame();
+            setTimeout( this.winGame.bind(this), 500);
         }
     }
 

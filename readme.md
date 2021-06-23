@@ -15,9 +15,12 @@ Bien qu'il y ai de nombreuses façons de le concevoir, grâce à cet exercice no
 - L'écoute d'évènements en Javascript et la création d'évènements personnalisés
 - La POO en Js
 - L'écriture en Bases de données en php (sans ORM)
+- Le binding ( ne pas s'emmeler les pinceaux avec le 'this')
 
 ### **Pour aller plus loin**
 Pour aller plus loin, les étudions devrons:
-- Ajouter un menu "options" permttant de choisir un thème de cartes, le nombre de fruits à découvrir, la durée du timer
-- Stocker le nombre de coups joués en plus du score en temps
+- Ajouter un menu "options" permettant de choisir un thème de cartes, le nombre de fruits à découvrir, la durée du timer
+- Stocker le nombre de coups joués en plus du score en temps, l'afficher et le mettre à jour
+
+
 

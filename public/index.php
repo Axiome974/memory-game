@@ -6,9 +6,9 @@ use AxiomeMemory\Helpers\ScoreHelper;
 
 // C'est ici qu'on va modifier les paramètres d'accès à la base de données, oui c'est pas très sécurisé mais pour le jeu que nous faisons c'est largement suffisant :D
 const PARAMS = [
-    "dbname"    => "memoscore",
+    "dbname"    => "memory",
     "user"      => "root",
-    "password"  => ""
+    "password"  => "1234"
 ];
 
 //un petit tricks pour créer des variables à partir d'un tableau
