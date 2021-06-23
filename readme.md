@@ -21,6 +21,7 @@ Bien qu'il y ai de nombreuses façons de le concevoir, grâce à cet exercice no
 Pour aller plus loin, les étudions devrons:
 - Ajouter un menu "options" permettant de choisir un thème de cartes, le nombre de fruits à découvrir, la durée du timer
 - Stocker le nombre de coups joués en plus du score en temps, l'afficher et le mettre à jour
-
+- Jouer des sons au retrounement de carte, game over, victoire, et success
+- Et bien d'autres choses selon vos envies, faites moi rêver ;)
 
 
