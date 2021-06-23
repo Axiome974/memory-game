@@ -1,0 +1,22 @@
+{
+    "name": "axiome/memory",
+    "description": "A memory game for the o'clock school students",
+    "authors": [
+        {
+            "name": "Damien Carreno",
+            "email": "damien.carreno@gmail.com"
+        }
+    ],
+    "require": {},
+    "platform": {
+        "php": "7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "AxiomeMemory\\" : "src/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    }
+}

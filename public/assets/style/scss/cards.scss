@@ -1,0 +1,21 @@
+$cardWidth : 100px;
+$cardHeight : 100px;
+
+.card{
+  width: $cardWidth;
+  height: $cardHeight;
+  border-radius: 7px;
+  margin: 14px;
+}
+
+.hidden{
+  background-color: #0d3977;
+}
+
+// Notre image comporte 18 fruits d'une taille de 100x100px, le principe va être de créer une classe fruit-x qui
+@for $i from 0 through 17{
+  .item-#{$i}{
+    background-image: url("../image/cards.png");
+    background-position-y: $i * $cardHeight;
+  }
+}
