@@ -13,10 +13,9 @@
 class Game {
 
     constructor() {
-        this.deck = new Deck(5);
+        this.deck = new Deck(14);
         this.timer = new Timer(120);
         this.score = 0;
-        this.guess = null;
     }
 
     // Le jeu commence ici
