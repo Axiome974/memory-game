@@ -2,7 +2,7 @@
 
 ### Comment l'installer:
 - Composer install pour installer les dépendances
-- Créer une base de données et modifier la constante PARAM dans le fichier `public/index.php`
+- Créer une base de données (mysql) et modifier la constante PARAM dans le fichier `public/index.php`
 - On lance la commande `bash start_server.sh` sur linux ou `start_server.bat` sous windows
 - et c'est tout!
 
